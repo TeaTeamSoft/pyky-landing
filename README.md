@@ -12,7 +12,7 @@ Team
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/KBeDeveloper" target="blank_">Benjamín Calisto</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/SebCastaneda" target="blank_">Sebastián Castañeda</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Xxxvcdp" target="blank_">Camilo Montupil</a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="blank_">Bryan Ortiz<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="blank_">Bryan Ortiz</a><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="blank_">José Yparraguirre</a><br/>
 
 Other data
