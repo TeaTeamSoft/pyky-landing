@@ -22,3 +22,7 @@ Go to the <a href="https://github.com/TeaTeamSoft/pyky-landing.git" target="blan
 Also, you can visit the <a href="#" target="blank">main Repo</a> of PyKy to get the source code.<br/>
 
 Author: <a href="https://github.com/KBeDeveloper" target="blank_">KBeDeveloper</a>
+
+## -(GitHub) José Yparraguirre : https://github.com/joseyparraguirre
+## José Yparraguirre Cambios ---
+- Traduciendo el index
