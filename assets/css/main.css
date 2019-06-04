@@ -1934,7 +1934,7 @@
 			input[type="button"].alt.icon:before,
 			button.alt.icon:before,
 			.button.alt.icon:before {
-				color: #aaa;
+				color: #000;
 			}
 
 		input[type="submit"].special,

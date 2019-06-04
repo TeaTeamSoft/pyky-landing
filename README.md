@@ -18,7 +18,12 @@ Team
 Other data
 --
 
+<<<<<<< HEAD
+Go to the <a href="https://teateamsoft.github.io/pyky-landing/" target="blank_">official website</a> to see the release version.
+<br/>
+=======
 Go to the <a href="https://github.com/TeaTeamSoft/pyky-landing.git" target="blank_">Original landing page Repo</a>.<br/>
+>>>>>>> master
 Also, you can visit the <a href="#" target="blank">main Repo [NOT ALLOWED YET]</a> of PyKy to get the source code.<br/>
 
 Author: <a href="https://github.com/KBeDeveloper" target="blank_">KBeDeveloper</a>
