@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PyKy | Registro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/cam/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/cam/cam.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="data"> 
+    <!--header-->
+
+    <!-- register-->
+        <section>
+            <div class="row">
+                <div class="center">
+                    <a href="index.html"><img src="images/logo.png" style="max-width: 200px; padding-top: 8px;"/></a>
+                    <p> <strong> <h5 class="backColor"> Tu kyosko, más conectado</h5> </strong></p>
+                </div>
+            </div>
+            <div class="container z-depth-5"><br/><br/>
+                <div class="row">
+                    <div id="personalDate">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <label for="name"><strong>Nombre</strong></label>
+                                <input type="text" id="name" class="backColor">
+                            </div>
+                            <div class="input-field col s6">
+                                <label for="lastName"><strong>Apellido</strong></label>
+                                <input type="text" id="lastName" class="backColor">
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="email" type="email" class="validate backColor" >
+                                <label for="email"><strong> Correo electrónico </strong></label>
+                                <span class="helper-text" data-error="Correo electrónico incorrecto" data-success="Correo electrónico validado"></span>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="password" type="password" class="validate backColor">
+                                <label for="password"> <strong>Contraseña</strong> </label>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <select id="nac">
+                                    <option value="#" disabled selected>Seleccione una opción</option>
+                                    <option value="M">Chilena</option>
+                                    <option value="F">Extranjera</option>
+                                </select>
+                                <label for="nac"><strong>Nacionalidad</strong> </label>
+                            </div>
+                            <div class="input-field col s6">
+                                    <select id="sex">
+                                        <option value="#" disabled selected>Seleccione una opción</option>
+                                        <option value="M">Masculino</option>
+                                        <option value="F">Femenino</option>
+                                    </select>
+                                <label for="sex"> <strong>Género</strong></label>
+                            </div>            
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <label for="age"> <strong>Edad</strong></label>
+                                <input type="number" name="age" id="age" min="10" class="validate backColor">
+                                <span class="helper-text" data-error="Edad incorrecta"></span>  
+                            </div>            
+                            <div class="input-field col s6">
+                                <label for="date"> <strong> Fecha de nacimiento </strong></label>
+                                <input type="text" class="datepicker backColor" id="date">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <p>
+                            <label class="backColor">
+                                <input type="checkbox" class="filled-in checkPyme" id="checkPyme"/>
+                                <span> <strong> ¿ Posees alguna PYME ? </strong></span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="enterprisingData">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <label for="namePyme"> <strong> Nombre de la PYME </strong></label>
+                                <input type="text" id="namePyme" class="backColor">
+                            </div>
+                            <div class="input-field col s6">
+                                <label for="namePyme"> <strong>Dirección </strong> </label>
+                                <input type="text" id="addressPyme" class="backColor">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <select id="categoryPyme">
+                                    <option value="#" disabled selected>Seleccione una opción</option>
+                                    <option value="1">Comida</option>
+                                    <option value="2">Artesanía</option>
+                                    <option value="3">Tecnología</option>
+                                </select>
+                                <label for="categoryPyme"> <strong>Categoría</strong></label>
+                            </div>
+                            <div class="file-field input-field col s6">
+                                <div class="btn" style="background-color: #f32853">
+                                    <span> <strong> Archivo </strong></span>
+                                    <input type="file" multiple>
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate backColor" type="text" placeholder="Sube uno imagen de perfil">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <label for="descriptionPyme"> <strong> Descripción </strong></label>
+                                <textarea id="descriptionPyme" class="materialize-textarea backColor"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 center">
+                        <button type="submit" class="btn btn-large z-depth-1" style="background-color:#f32853">
+                           <strong>Registrarse</strong>
+                        </button>
+                    </div>
+                </div><br/>
+            </div>
+        </section>
+        
+    <!--script-->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/cam/materialize.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+                $('select').formSelect();
+                $('.datepicker').datepicker();
+                $("#enterprisingData").hide();
+                   
+                $("#checkPyme").click(function()
+                {
+                    if($("#checkPyme").is(":checked"))
+                    {
+                        $("#enterprisingData").show();
+                    }else 
+                    {
+                        $("#enterprisingData").hide();
+                    }
+                });
+
+            });
+        </script>
+</body>
+</html>
