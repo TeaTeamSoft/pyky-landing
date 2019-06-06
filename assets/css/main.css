@@ -7,6 +7,32 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+	/* BACK TO TOP BUTTON */
+	#toTop {
+		display: none; /* Hidden by default */
+		position: fixed; /* Fixed/sticky position */
+		height: 50px;
+  		width: 50px;
+		bottom: 12%; /* Place the button at the bottom of the page */
+		right: 6%; /* Place the button 30px from the right */
+		z-index: 99; /* Make sure it does not overlap */
+		border: none; /* Remove borders */
+		text-align: center;
+		outline: none; /* Remove outline */
+		background-color: rgba(40,40,40,0.9); /* Set a background color */
+		color: #f8f9fa; /* Text color */
+		cursor: pointer; /* Add a mouse pointer on hover */
+		padding: 15px; /* Some padding */
+		border-radius: 50%; /* Rounded corners */
+		font-size: 20px; /* Increase font size */
+		padding-top: 12.5px;
+	}
+
+	#toTop:hover {
+		/*background-color: rgba(85,85,85,0.9); /* Add a dark-grey background on hover */
+		background: #777555;
+	}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
