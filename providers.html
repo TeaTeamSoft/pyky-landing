@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PyKy | Emprendimiento</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/solid.css" integrity="sha384-ypqxM+6jj5ropInEPawU1UEhbuOuBkkz59KyIbbsTu4Sw62PfV3KUnQadMbIoAzq" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/fontawesome.css" integrity="sha384-NnhYAEceBbm5rQuNvCv6o4iIoPZlkaWfvuXVh4XkRNvHWKgu/Mk2nEjFZpPQdwiz" crossorigin="anonymous">	
+</head>
+<body class="landing">
+        <header id="header" class="alt">
+            <h1><strong><a href="index.html"><img src="images/logo.png" style="max-width: 90px; padding-top: 8px;"/></a></strong></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#"><strong style="color:white;">Para proveedores</strong></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+        
+        <section id="banner" style="background-image: url('assets/css/images/overlay.png'), url('images/banner_prov.jpg')">
+            <h2>Difunde tu emprendimiento</h2>
+            <p style="color:white;">Porque sabemos que emprender no es fácil, <br/> bajamos los costos para asesorarte y <strong style="color:#f44066">publicitar</strong> tu proyecto.</p>
+        </section>
+
+        <a onclick="topFunction()" id="toTop" title="Go to top"><i class="fas fa-arrow-up"></i></a>
+
+        <footer id="footer">
+            <div class="container">
+                <ul class="icons">
+                    <li><a href="https://github.com/TeaTeamSoft/pyky-landing" class="icon fa-github" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/teateam_pyky/?igshid=63h6x054b1y6" class="icon fa-instagram" target="_blank"></a></li>
+                </ul>
+                <ul class="copyright" style="color:#404040;">
+                    <li>PyKy &copy; A <strong>TeaTeam</strong> project</li>
+                    <li>Design: <a href="http://templated.co" target="_blank"><strong>TEMPLATED</strong></a></li>
+                    <li>Images: <a href="http://unsplash.com" target="_blank"><strong>Unsplash</strong></a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+                    $("#toTop").fadeIn("slow")
+                } else {
+                    $("#toTop").fadeOut("fast")
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            $("#toTop").on("click", function(){
+                $("html, body").animate({scrollTop: $("html").offset().top}, 500);
+            });
+        </script>
+</body>
+</html>

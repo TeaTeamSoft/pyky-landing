@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="es">
 	<head>
-		<title>PyKy | Inicio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>PyKy | Inicio</title>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/solid.css" integrity="sha384-ypqxM+6jj5ropInEPawU1UEhbuOuBkkz59KyIbbsTu4Sw62PfV3KUnQadMbIoAzq" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/fontawesome.css" integrity="sha384-NnhYAEceBbm5rQuNvCv6o4iIoPZlkaWfvuXVh4XkRNvHWKgu/Mk2nEjFZpPQdwiz" crossorigin="anonymous">	
@@ -14,8 +14,8 @@
 				<h1><strong><a href="index.html"><img src="images/logo.png" style="max-width: 90px; padding-top: 8px;"/></a></strong></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html"><strong style="color:white;">Inicio</strong></a></li>
-						<li><a href="generic.html">Para proveedores</a></li>
+						<li><a href="#"><strong style="color:white;">Inicio</strong></a></li>
+						<li><a href="providers.html">Para proveedores</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -27,7 +27,7 @@
 				<h2>Tu Kyosko, más conectado</h2>
 				<p style="color:white;">Porque buscamos que tengas lo mejor, al mejor precio<br/> lo más <strong style="color:#f44066">cerca</strong> posible.</p>
 				<ul class="actions">
-					<li><a href="#" class="button special big">Muéstrame más</a></li>
+					<li><a href="#" id="showMe" class="button special big">Muéstrame más</a></li>
 				</ul>
 			</section>
 
@@ -109,7 +109,7 @@
 							<p style="color:white;">Conéctate con tus clientes, <strong style="color:#f44066;">publicítate</strong> a bajo costo, recibe asesorías financieras y muchas cosas más.</p>
 						</header>
 						<ul class="actions">
-							<li><a href="generic.html" class="button special big">Sí, quiero ver más</a></li>
+							<li><a href="providers.html" class="button special big">Sí, quiero ver más</a></li>
 						</ul>
 					</div>
 				</section>
@@ -152,6 +152,11 @@
 				$("#toTop").on("click", function(){
 					$("html, body").animate({scrollTop: $("html").offset().top}, 500);
 				});
+			</script>
+			<script>
+			$("#showMe").on("click", function(){
+				$("html, body").animate({scrollTop: $("#three").offset().top}, 500)
+			})
 			</script>
 	</body>
 </html>
