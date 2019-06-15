@@ -15,8 +15,8 @@ A **TeaTeam Soft** project
 
 ## Other data
 
-Go to the [official website](https://teateamsoft.github.io/pyky-landing/) to see the release version.
+Go to the [official website](https://teateam.github.io/pyky-landing/) to see the release version.
 <br/>
-Also, you can visit the [main Repo](https://github.com/TeaTeamSoft/Pyky) of PyKy to get the source code.
+Also, you can visit the [main Repo](https://github.com/TeaTeam/Pyky) of PyKy to get the source code.
 <br/>
 Author: [KBeDeveloper](https://github.com/KBeDeveloper)
